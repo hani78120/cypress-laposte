@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Questionnaire culture general</title>
+    <script src="script.js" defer></script>
+    <meta charset="utf8" \ />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bg-image"></div>
+    <h1>Questionnaire à choix unique</h1>
+    <p class="welcome">
+      Merci de sélectionner un choix de réponse parmi celle présenté ci-dessous
+      :
+    </p>
+    <p>Quel est le président actuel des Etats-unis d'Amérique :</p>
+    <p>
+      Bill Gates:
+      <input type="radio" name="president" value="Bill Gates" data-cy="test1"/><br />
+      Donald Trump:
+      <input type="radio" name="president" value="Donald Trump" data-cy="test2"/><br />
+      Barack Obama:
+      <input type="radio" name="president" value="Barack Obama" data-cy="test3"/><br />
+      Joe Biden: <input type="radio" name="president" value="Joe Biden" data-cy="test4"/></br><br/>
+
+      <button type="submit" onclick="presidentSubmit()">Valider votre choix</button>
+    </p> <div id="resultat"></div>
+  </body>
+</html>

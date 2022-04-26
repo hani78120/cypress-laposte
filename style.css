@@ -1,0 +1,24 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+.bg-image {
+  background-image: url("C:/Users/XAXF684/Desktop/formation-automatisation/git-demo/ayadihani/CSS/drapeau-usa.jpeg");
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+* {
+  color: blue;
+}
+h1 {
+  text-align: center;
+  color: red;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border-radius: 100px;
+  background-color: blue;
+}
