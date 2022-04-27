@@ -13,17 +13,35 @@
       Merci de sélectionner un choix de réponse parmi celle présenté ci-dessous
       :
     </p>
-    <p>Quel est le président actuel des Etats-unis d'Amérique :</p>
+    <p data-cy="Q1">Quel est le président actuel des Etats-unis d'Amérique :</p>
     <p>
-      Bill Gates:
-      <input type="radio" name="president" value="Bill Gates" data-cy="test1"/><br />
-      Donald Trump:
-      <input type="radio" name="president" value="Donald Trump" data-cy="test2"/><br />
-      Barack Obama:
-      <input type="radio" name="president" value="Barack Obama" data-cy="test3"/><br />
-      Joe Biden: <input type="radio" name="president" value="Joe Biden" data-cy="test4"/></br><br/>
-
-      <button type="submit" onclick="presidentSubmit()">Valider votre choix</button>
+      <input type="radio" name="president" value="Bill Gates" data-cy="test1"/>
+      <label data-cy="test1bis" for="Bill Gates">Bill Gates</label>
+      <input type="radio" name="president" value="Donald Trump" data-cy="test2"/>
+      <label data-cy="test2bis" for="Donald Trump">Donald Trump</label>
+      <input type="radio" name="president" value="Barack Obama" data-cy="test3">
+      <label data-cy="test3bis"for="Barack Obama">Barack Obama</label>
+     <input type="radio" name="president" value="Joe Biden" data-cy="test4"/>
+      <label data-cy="test4bis" for="Joe Biden">Joe Biden</label><br>
+      <button data-cy="bouton valider" type="submit" onclick="presidentSubmit()">Valider votre choix</button>
     </p> <div id="resultat"></div>
+    <div class="Q3">
+      <h4 class="TitreQ3" data-cy="Q2">
+        Quelle équipe de football est championne du monde en 2018?
+      </h2>
+      <div class="QR3"></div>
+      <label for="pet-select">Sélectionner une équipe ...</label>
+
+      <select name="pets" id="pet-select">
+        <option value="">--Sélectionner--</option>
+        <option value="france">France</option>
+        <option value="algerie">Algerie</option>
+        <option value="espagne">Espagne</option>
+        <option value="allemagne">Allemagne</option>
+        <option value="bresil">Bresil</option>
+      </select>
+      <br />
+      <p id="repo3"></p>
+    </div>
   </body>
 </html>
